@@ -1,0 +1,82 @@
+.details {
+    width: 100%;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.pokemon {
+    margin: 3% 0 4%;
+    text-align: center;
+    transform: scale(3);
+    overflow: hidden;
+}
+
+.box {
+    width: 20%;
+    height: auto;
+    padding: 20px 0;
+    background-color: #7D7950;
+    color: white;
+}
+
+.info {
+    background-color: #7D7950;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    margin: 10px 30%;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.info:last-of-type {
+    margin-bottom: 20px;
+}
+
+.darkMode {
+    background-color: #5a4f7c;
+}
+
+.itemFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.fav{
+    cursor: pointer;
+}
+
+.fav:hover{
+    filter: hue-rotate(10deg);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .box:first-of-type{
+        margin-top: 40px;
+    }
+}

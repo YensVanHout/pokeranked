@@ -1,0 +1,48 @@
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+/* BUTTON CSS */
+
+.linkButton {
+    margin: 30px 20px;
+    padding: 40px 60px;
+    border-radius: 10px;
+    border: solid black 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.linkButton:first-of-type {
+    background-color: #F6CF57;
+}
+
+.linkButton:first-of-type:hover {
+    background-color: #f3c53b;
+}
+
+.linkButton:last-of-type {
+    background-color: #C5915D;
+}
+
+.linkButton:last-of-type:hover {
+    background-color: #c27d39;
+}
+
+.linkButton a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+@media (max-width: 768px) {
+    .flex {
+        display: block;
+    }
+}

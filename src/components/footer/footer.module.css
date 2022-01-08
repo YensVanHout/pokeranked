@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    padding: 10px 0;
+}
+
+.footerDark {
+    background-color: #2c2c2c;
+}
+
+.footerDark p {
+    color: white;
+}

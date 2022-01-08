@@ -1,0 +1,112 @@
+.drawer {
+    background-color: rgba(119, 118, 118, 0.9);
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    transition: all 0.3s cubic-bezier(.72, .31, .43, .61);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.option {
+    width: 128px;
+    text-align: center;
+    margin: 10px;
+}
+
+.hidden {
+    right: -500px;
+}
+
+.bttn {
+    background-color: #bbb;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.bttn:hover {
+    background-color: #aaa;
+}
+
+.darkMode {
+    background-color: rgba(34, 34, 34, .9);
+}
+
+.mode {
+    width: 128px;
+    height: 128px;
+    background-color: red;
+    display: flex;
+    border: #bbb solid 2px;
+}
+
+.mode div {
+    width: 50%;
+    height: 100%;
+}
+
+.darkPrimary {
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.darkSecondary {
+    background-color: #5a4f7c;
+}
+
+.lightPrimary {
+    background-color: rgb(248, 248, 248);
+}
+
+.lightSecondary {
+    background-color: #7D7950;
+}
+
+.pikachu {
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+}
+
+.pikachu span {
+    transform: scale(3)
+}
+
+.dexstyle {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 2px;
+}
+
+.rounded {
+    border-radius: 20px;
+    height: 100%;
+    border: 5px darkgrey;
+    border-style: none solid solid none;
+    background-color: #ccc;
+}
+
+.top {
+    height: 55%;
+    background-color: #ccc;
+}
+
+.bottom {
+    height: 45%;
+    background-color: #bbb;
+}
